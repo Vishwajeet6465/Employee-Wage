@@ -7,7 +7,7 @@ class EmployeeWage{
     
     public void dailywage(boolean add){
     
-        if(add==true){
+        if(add){
 
             totalWage=totalWage+(wagePerHr *FullDayHr);
         }else{
